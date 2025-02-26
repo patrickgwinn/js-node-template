@@ -24,3 +24,12 @@ function formatGreeting(word1, word2) {
 	return `${word1} ${word2}!`;
 }
 console.log(formatGreeting(hello.word1, hello.word2)); // Hello World!
+
+const cart = {
+	price: 100,
+	tax: 0.07,
+};
+function calculateTotalWithTax(cart) {
+	return cart.price * (1 + cart.tax);
+}
+console.log(calculateTotalWithTax(cart)); // 107
