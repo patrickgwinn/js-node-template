@@ -33,3 +33,12 @@ function calculateTotalWithTax(cart) {
 	return cart.price * (1 + cart.tax);
 }
 console.log(calculateTotalWithTax(cart)); // 107
+
+const nameInfo = {
+	firstName: "Patrick",
+	lastName: "Gwinn",
+};
+function formatFullName(firstName, lastName) {
+	return `${firstName} ${lastName}`;
+}
+console.log(formatFullName(nameInfo.firstName, nameInfo.lastName)); // Patrick Gwinn
