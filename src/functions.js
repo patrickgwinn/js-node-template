@@ -42,3 +42,13 @@ function formatFullName(firstName, lastName) {
 	return `${firstName} ${lastName}`;
 }
 console.log(formatFullName(nameInfo.firstName, nameInfo.lastName)); // Patrick Gwinn
+
+const character = {
+	name: "Hero",
+	weapon: "Sword",
+	level: 1,
+};
+function displayCharacterInfo(character) {
+	return `${character.name} is at level ${character.level} and wields a ${character.weapon}.`;
+}
+console.log(displayCharacterInfo(character)); // Hero is at level 1 and wields a Sword.
