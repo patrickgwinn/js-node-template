@@ -1,21 +1,28 @@
-const x = 3;
-const y = 4;
-console.log(x + y);
-
-const patrick = {
-	name: "Patrick",
-	age: 33,
-	hair: "brown",
-	status: "awesome",
+const student1 = {
+	name: "Sarah",
+	course: "JavaScript",
+	grade: 95,
 };
-console.log(patrick);
+const student2 = {
+	name: "John",
+	course: "Python",
+	grade: 88,
+};
+const student3 = {
+	name: "Alice",
+	course: "C++",
+	grade: 92,
+};
 
-const groceryList = [
-	"apples",
-	"bananas",
-	"oranges",
-	"grapes",
-	"coffee",
-	"creamer",
-];
-console.log(groceryList);
+function displayStudentInfo(student) {
+	return `${student.name} is taking ${student.course} and expects to earn ${student.grade}%`;
+}
+
+console.log(displayStudentInfo(student1));
+console.log(displayStudentInfo(student2));
+console.log(displayStudentInfo(student3));
+
+function add2Nums(x, y) {
+	return x + y;
+}
+const sum = add2Nums(200, 300);
