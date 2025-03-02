@@ -1,0 +1,6 @@
+# Loops Reflection
+
+The most challenging part about loops is usually the while loops and more specifically how to set them up not to repeat forever and when to stop. A lot of times I have trouble determining exactly what should be in the loop and what should be outside of it. The more I practice it gets easier. Now, I ask myself if I need this particular statement to repeat or not and place it accordingly.  
+I liked learning about how to work with objects and use them in calculations instead of just accessing the items and displaying them. It feels like another step closer to working with them in real life contexts and being able to make things happen with them.  
+Loops will be very useful in building web applications I believe because a lot of data is going to be data that isn't already known and will need to be input by the user. A lot of websites that use running totals use loops, such as keeping track of the items in your shopping cart and how much they will cost all together. Like on Amazon.com (I actually work for Amazon while I'm in school lol)  
+For loops are for when you know exactly how many loops need and while loops are more for a conditional loop that keeps running as long as a certain condition chosen by the developer is true.
